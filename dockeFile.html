@@ -17,14 +17,21 @@
     <div class="w3-third w3-container w3-margin-bottom">
       <img src="/w3images/lights.jpg" alt="Ubuntu" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        <p><strong>FORM ubuntu:18.04</strong></p>
+        <p>COPY . /app <br>
+           RUN . /app <br>
+           CMD python /app/app.py
+        </p>
+        <li><mark>FORM</mark> crea una imagen de  <strong>ubutnu:18.04</strong> </li>
+        <li><mark>COPY</mark> Agrega archivos desde el directorio actual  <strong>. /app</strong> </li>
+        <li><mark>RUN</mark> Construlle la aplicacion con  <strong>make</strong> </li>
+        <li><mark>CMD</mark> Especifica que comando ejecutar dentro del contenedor <strong>python</strong> </li>
       </div>
     </div>
     <div class="w3-third w3-container w3-margin-bottom">
       <img src="/w3images/mountains.jpg" alt="Debian" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
         <p><strong>FROM debian</strong><br><br>
-          <em>MAINTAINER <strong>Marco Andres</strong> "marko4788@gmail.com"</em><br><br>
           <em>RUN apt-get update && apt-get install -y apache2 && apt-get clean && rm -rf /var/lib/apt/lists/*</em> <br> <br>
           <em>ENV APACHE_RUN_USER www-data <br>
               ENV APACHE_RUN_GROUP www-data <br>
@@ -34,8 +41,9 @@
               ADD ["index.html","/var/www/html/"] <br><br>
               ENTRYPOINT ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
           </em>
-
+          <li><mark>FORM</mark> crea una imagen de  <strong>ubutnu:18.04</strong> </li>
         </p>
+
       </div>
     </div>
     <div class="w3-third w3-container">
