@@ -4,7 +4,7 @@ body
 }
 img
 {
-  max-width: 100%;
+  max-width: 300px;
 }
 .quit-float
 {
@@ -20,6 +20,10 @@ h1
 {
   color: #EBAD17;
   padding: 20px;
+}
+h2
+{
+  padding: 30px;
 }
 a
 {
