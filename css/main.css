@@ -1,0 +1,63 @@
+body
+{
+  background-color: #8D8987;
+}
+img
+{
+  max-width: 100%;
+}
+.quit-float
+{
+float: none;
+}
+
+.arriba
+{
+  margin-top: 100px;
+}
+
+h1
+{
+  color: #EBAD17;
+  padding: 20px;
+}
+a
+{
+  color: #005F74;
+  padding: 5px;
+}
+
+.sofia
+{
+font-family: 'Sofia', cursive;
+}
+.modak
+{
+  font-family: 'Modak', cursive;
+}
+.amatic
+{
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+}
+.padding-largo
+{
+  padding: 5px 10px;
+}
+.noLista
+{
+  list-style-type: none;
+}
+.inline-block
+{
+  float: none;
+  display: inline-block;
+  margin-right: -4px;
+}
+
+/* Color Theme Swatches in Hex */
+.amarillocol { color: #EBAD17; }
+.negrocol { color: #000000; }
+.rojocol { color: #D6403D; }
+.azulcol { color: #005F74; }
+.griscol { color: #8D8987; }
